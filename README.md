@@ -50,7 +50,7 @@ stress_detector_datascience-main/
 ├── data_analysis/
 │   └── notebooks/
 │       ├── 01_data_wrangling/       # Notebook wrangling dan validasi data
-│       ├── 02_ai_eng_handoff/       # Dataset handoff untuk AI Engineer
+│       ├── 02_ai_eng_handoff/       # Dataset handoff sementara untuk AI Engineer
 │       ├── 03_exploratory_visualization_data_analysis/
 │       │                            # EDA, feature planning, dan resampling
 │       └── 04_dashboard/            # Dashboard Streamlit
@@ -64,11 +64,11 @@ stress_detector_datascience-main/
 │               ├── 05.py
 │               ├── 06.py
 │               ├── 07.py
-│               └── 08.py            # Page Hasil Modelling AI
+│               └── 08.py           
 │
 ├── outputs/
 │   ├── datasets/
-│   │   └── resampling_experiments/  # Dataset hasil resampling modelling
+│   │   └── resampling_experiments/  # Dataset hasil resampling modelling dan handoff final untuk AI Engineer
 │   ├── figures/                     # Grafik EDA dan diagnostik resampling
 │   └── reports/                     # Report validasi, EDA, resampling, modelling
 │
@@ -145,7 +145,7 @@ data_analysis/notebooks/01_data_wrangling/
 
 Notebook di folder ini digunakan untuk membersihkan data per tabel, memvalidasi relasi, dan menghasilkan report validasi.
 
-### 2. AI Engineer Handoff
+### 2. AI Engineer Handoff (Sementara)
 
 ```text
 data_analysis/notebooks/02_ai_eng_handoff/02_handoff_dataset_for_ai_eng.ipynb
